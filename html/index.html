@@ -1,475 +1,510 @@
 <!doctype html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pepetly - Solusi SaaS untuk UMKM Indonesia</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Anybody:wght@900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/svg" href="public/favicon.svg" />
-  </head>
-  <body>
-    <!-- Floating shapes -->
-    <div class="floating-shape shape-1"></div>
-    <div class="floating-shape shape-2"></div>
-    <div class="floating-shape shape-3"></div>
 
-    <!-- Header -->
-    <header>
-      <nav>
-        <div class="logo">PEPETLY</div>
-        <ul class="nav-links" id="navLinks">
-          <li><a href="#produk">Produk</a></li>
-          <li><a href="#keunggulan">Keunggulan</a></li>
-          <li><a href="#tentang">Tentang</a></li>
-          <li><a href="#kontak">Kontak</a></li>
-        </ul>
-        <div class="mobile-menu" id="mobileMenu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pepetly - Solusi SaaS untuk UMKM Indonesia</title>
+  <meta name="description"
+    content="Pepetly menyediakan solusi SaaS terjangkau untuk UMKM Indonesia. Tingkatkan efisiensi bisnis dengan sistem booking online, automation WhatsApp, dan tools digital lainnya." />
+  <meta name="keywords"
+    content="SaaS Indonesia, UMKM, Booking Online, WhatsApp Automation, n8n, Digitalisasi Bisnis, Aplikasi Kasir, Jadwal Online" />
+  <meta name="author" content="Pepetly" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://pepetly.my.id/" />
 
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="hero-content">
-        <h1 class="hero-title">
-          SOLUSI <span class="pink">SaaS</span><br />
-          UNTUK UMKM<br />
-          INDONESIA
-        </h1>
-        <p class="hero-subtitle">
-          Kami membangun tools digital yang memberdayakan bisnis lokal untuk
-          tumbuh lebih cepat dengan teknologi yang terjangkau dan mudah
-          digunakan.
-        </p>
-        <a href="#produk" class="cta-button">Lihat Produk Kami</a>
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://pepetly.my.id/" />
+  <meta property="og:title" content="Pepetly - Solusi SaaS untuk UMKM Indonesia" />
+  <meta property="og:description"
+    content="Bangun bisnis lokal Anda lebih cepat dengan teknologi automation yang terjangkau. Solusi booking online dan manajemen bisnis untuk UMKM." />
+  <meta property="og:image" content="https://pepetly.my.id/og-image.jpg" />
+  <meta property="og:locale" content="id_ID" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://pepetly.my.id/" />
+  <meta property="twitter:title" content="Pepetly - Solusi SaaS untuk UMKM Indonesia" />
+  <meta property="twitter:description"
+    content="Bangun bisnis lokal Anda lebih cepat dengan teknologi automation yang terjangkau. Solusi booking online dan manajemen bisnis untuk UMKM." />
+  <meta property="twitter:image" content="https://pepetly.my.id/og-image.jpg" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Pepetly",
+      "url": "https://pepetly.my.id",
+      "logo": "https://pepetly.my.id/public/favicon.svg",
+      "description": "Solusi SaaS dan Automation untuk UMKM Indonesia.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "ID"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+62-858-6201-6523",
+        "contactType": "customer service",
+        "email": "pepetly@gmail.com"
+      },
+      "sameAs": [
+        "https://bookingku.online"
+      ]
+    }
+    </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Anybody:wght@900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg" href="public/favicon.svg" />
+</head>
+
+<body>
+  <!-- Floating shapes -->
+  <div class="floating-shape shape-1"></div>
+  <div class="floating-shape shape-2"></div>
+  <div class="floating-shape shape-3"></div>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">PEPETLY</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#produk">Produk</a></li>
+        <li><a href="#keunggulan">Keunggulan</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+      <div class="mobile-menu" id="mobileMenu">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-    </section>
+    </nav>
+  </header>
 
-    <!-- Stats Section -->
-    <section class="stats">
-      <div class="stats-grid">
-        <div class="stat-item">
-          <div class="stat-number">28+</div>
-          <div class="stat-label">Bisnis Aktif</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number">100%</div>
-          <div class="stat-label">Made in Indonesia</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number">24/7</div>
-          <div class="stat-label">Automation</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Products Section -->
-    <section class="products" id="produk">
-      <div class="section-content">
-        <h2 class="section-title animate-on-scroll">Produk Kami</h2>
-
-        <div class="product-card animate-on-scroll">
-          <div class="product-header">
-            <h3 class="product-name">Bookingku</h3>
-            <span class="product-status live">● LIVE</span>
-          </div>
-          <p class="product-description">
-            Sistem booking online terintegrasi WhatsApp untuk bisnis jasa.
-            Kelola jadwal, terima pembayaran DP, dan kirim reminder WhatsApp
-            otomatis dalam satu aplikasi. Sempurna untuk barbershop, salon, spa,
-            klinik, dan berbagai bisnis jasa lainnya.
-          </p>
-          <a
-            href="https://bookingku.online"
-            target="_blank"
-            class="product-link"
-          >
-            Kunjungi Bookingku →
-          </a>
-        </div>
-
-        <div
-          class="product-card animate-on-scroll"
-          style="animation-delay: 0.2s"
-        >
-          <div class="product-header">
-            <h3 class="product-name">Coming Soon</h3>
-            <span class="product-status">● DEVELOPMENT</span>
-          </div>
-          <p class="product-description">
-            Kami sedang mengembangkan solusi SaaS baru yang akan segera hadir
-            untuk membantu UMKM Indonesia berkembang lebih pesat.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Why Choose Pepetly Section -->
-    <section class="why" id="keunggulan">
-      <div class="section-content">
-        <h2 class="section-title animate-on-scroll">Kenapa Pilih Pepetly?</h2>
-
-        <div class="why-grid">
-          <div class="why-card">
-            <div class="why-number">01</div>
-            <h3 class="why-title">Automation-First</h3>
-            <p class="why-text">
-              Semua SaaS kami dibangun dengan n8n automation platform. Hemat
-              waktu hingga 80% dengan workflow otomatis yang powerful dan dapat
-              disesuaikan dengan kebutuhan bisnis Anda.
-            </p>
-          </div>
-
-          <div class="why-card">
-            <div class="why-number">02</div>
-            <h3 class="why-title">Open Source Tech</h3>
-            <p class="why-text">
-              Kami menggunakan teknologi open-source yang transparan dan aman.
-              Tidak ada vendor lock-in, full control atas data Anda, dan biaya
-              operasional lebih rendah dibanding solusi proprietary.
-            </p>
-          </div>
-
-          <div class="why-card">
-            <div class="why-number">03</div>
-            <h3 class="why-title">Designed for UMKM</h3>
-            <p class="why-text">
-              Dibuat khusus untuk kebutuhan bisnis Indonesia. Interface
-              sederhana, harga terjangkau, support dalam bahasa Indonesia, dan
-              fitur yang benar-benar dibutuhkan UMKM lokal.
-            </p>
-          </div>
-
-          <div class="why-card">
-            <div class="why-number">04</div>
-            <h3 class="why-title">Scalable & Flexible</h3>
-            <p class="why-text">
-              Platform kami tumbuh seiring bisnis Anda. Dari startup hingga
-              enterprise, dari 10 hingga 10,000 transaksi per hari. Integrasi
-              mudah dengan 400+ aplikasi populer.
-            </p>
-          </div>
-
-          <div class="why-card">
-            <div class="why-number">05</div>
-            <h3 class="why-title">No-Code Automation</h3>
-            <p class="why-text">
-              Tidak perlu coding untuk setup automation. Visual workflow builder
-              yang intuitif memungkinkan siapa saja bisa membuat automation
-              kompleks tanpa skill programming.
-            </p>
-          </div>
-
-          <div class="why-card">
-            <div class="why-number">06</div>
-            <h3 class="why-title">Cost Effective</h3>
-            <p class="why-text">
-              Harga yang fair dan transparan. Tidak ada biaya tersembunyi, tidak
-              ada vendor lock-in yang mahal. ROI cepat dengan penghematan waktu
-              dan biaya operasional signifikan.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- How We Work Section -->
-    <section class="how-we-work">
-      <div class="section-content">
-        <h2
-          class="section-title animate-on-scroll"
-          style="color: var(--white); text-shadow: 4px 4px 0 var(--black)"
-        >
-          Cara Kerja Kami
-        </h2>
-
-        <div class="how-steps">
-          <div class="step">
-            <div class="step-number">1</div>
-            <div class="step-content">
-              <h3>Riset & Identifikasi Masalah</h3>
-              <p>
-                Kami mendengarkan pain points UMKM Indonesia, mengidentifikasi
-                masalah berulang yang memakan waktu dan menghambat pertumbuhan
-                bisnis.
-              </p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-number">2</div>
-            <div class="step-content">
-              <h3>Design Solution</h3>
-              <p>
-                Merancang solusi SaaS yang sederhana, powerful, dan affordable.
-                Fokus pada user experience yang intuitif dan fitur yang
-                benar-benar dibutuhkan.
-              </p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-number">3</div>
-            <div class="step-content">
-              <h3>Build with Automation</h3>
-              <p>
-                Membangun produk dengan n8n automation di core-nya. Setiap
-                proses dioptimalkan untuk efisiensi maksimal dan maintenance
-                minimal.
-              </p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step-number">4</div>
-            <div class="step-content">
-              <h3>Launch & Iterate</h3>
-              <p>
-                Rilis produk ke market, kumpulkan feedback dari user, dan terus
-                improve. Kami percaya pada continuous improvement berdasarkan
-                kebutuhan nyata.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-      <div class="section-content">
-        <h2 class="section-title animate-on-scroll">Apa Kata Mereka</h2>
-
-        <div class="testimonials-grid">
-          <div class="testimonial-card">
-            <div class="testimonial-quote">
-              Sejak pakai BookingKu, no-show berkurang drastis karena ada
-              reminder WhatsApp otomatis. Pelanggan juga senang bisa booking
-              sendiri.
-            </div>
-            <div class="testimonial-author">
-              <div class="testimonial-name">Budi Santoso</div>
-              <div class="testimonial-role">Owner, Cool Cuts Barber</div>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div class="testimonial-quote">
-              Fitur-fitur yang ada sangat membantu saya. Sangat worth it untuk
-              harga segini.
-            </div>
-            <div class="testimonial-author">
-              <div class="testimonial-name">Siti Rahma</div>
-              <div class="testimonial-role">Manager, Glow Spa</div>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div class="testimonial-quote">
-              Tampilan booking page-nya profesional banget. Client jadi lebih
-              percaya sama jasa saya.
-            </div>
-            <div class="testimonial-author">
-              <div class="testimonial-name">Andi Wijaya</div>
-              <div class="testimonial-role">Freelance Consultant</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta-section">
-      <div class="section-content">
-        <h2 class="section-title animate-on-scroll">
-          Siap Digitalisasi Bisnis Anda?
-        </h2>
-        <p class="cta-text animate-on-scroll">
-          Bergabunglah dengan puluhan UMKM Indonesia yang sudah merasakan
-          manfaat automation. Hemat waktu, tingkatkan efisiensi, dan fokus pada
-          pertumbuhan bisnis.
-        </p>
-        <div class="cta-buttons animate-on-scroll">
-          <a
-            href="https://bookingku.online/register"
-            target="_blank"
-            class="cta-button"
-            >Coba Bookingku Gratis</a
-          >
-          <a href="#kontak" class="cta-button-secondary">Hubungi Kami</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section class="faq">
-      <div class="section-content">
-        <h2 class="section-title animate-on-scroll">
-          Pertanyaan yang Sering Diajukan
-        </h2>
-
-        <div class="faq-list">
-          <div class="faq-item">
-            <div class="faq-question">Apa itu Pepetly?</div>
-            <div class="faq-answer">
-              <div class="faq-answer-content">
-                Pepetly adalah perusahaan perorangan yang fokus membangun SaaS
-                solutions untuk UMKM Indonesia. Kami menggunakan teknologi
-                automation untuk membuat tools yang powerful namun mudah
-                digunakan dan terjangkau.
-              </div>
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <div class="faq-question">
-              Apa keunggulan produk Pepetly dibanding kompetitor?
-            </div>
-            <div class="faq-answer">
-              <div class="faq-answer-content">
-                Semua produk kami dibangun dengan n8n automation platform yang
-                memberikan fleksibilitas tinggi, cost-effective, dan tidak ada
-                vendor lock-in. Kami juga fokus pada kebutuhan spesifik UMKM
-                Indonesia dengan harga yang sangat terjangkau.
-              </div>
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <div class="faq-question">
-              Apakah saya perlu skill teknis untuk menggunakan produk Pepetly?
-            </div>
-            <div class="faq-answer">
-              <div class="faq-answer-content">
-                Tidak sama sekali! Semua produk kami dirancang dengan interface
-                yang sangat user-friendly. Jika Anda bisa menggunakan WhatsApp
-                atau Instagram, Anda pasti bisa menggunakan produk kami.
-              </div>
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <div class="faq-question">Apakah data bisnis saya aman?</div>
-            <div class="faq-answer">
-              <div class="faq-answer-content">
-                Sangat aman. Kami menggunakan enkripsi SSL, backup rutin, dan
-                mengikuti best practices dalam data security. Data Anda disimpan
-                di server yang reliable dan terlindungi.
-              </div>
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <div class="faq-question">
-              Apakah ada produk SaaS lain yang sedang dikembangkan?
-            </div>
-            <div class="faq-answer">
-              <div class="faq-answer-content">
-                Ya! Saat ini kami sedang mengembangkan beberapa produk SaaS baru
-                yang akan membantu UMKM dalam berbagai aspek bisnis. Stay tuned
-                untuk update terbaru di website kami.
-              </div>
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <div class="faq-question">
-              Bagaimana cara mendapatkan support jika ada masalah?
-            </div>
-            <div class="faq-answer">
-              <div class="faq-answer-content">
-                Anda bisa menghubungi kami melalui WhatsApp atau email. Tim
-                support kami siap membantu Anda dengan respon yang cepat dan
-                solusi yang jelas.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="about" id="tentang">
-      <div class="section-content">
-        <h2 class="section-title animate-on-scroll">Tentang Pepetly</h2>
-
-        <div class="about-grid">
-          <div class="about-card">
-            <div class="about-icon">🎯</div>
-            <h3 class="about-title">Misi Kami</h3>
-            <p class="about-text">
-              Memberdayakan UMKM Indonesia dengan solusi digital yang
-              terjangkau, mudah digunakan, dan efektif untuk meningkatkan
-              produktivitas bisnis.
-            </p>
-          </div>
-
-          <div class="about-card">
-            <div class="about-icon">💡</div>
-            <h3 class="about-title">Inovasi</h3>
-            <p class="about-text">
-              Kami percaya teknologi harus accessible untuk semua. Itulah
-              mengapa kami fokus membangun tools yang powerful namun simple
-              untuk digunakan.
-            </p>
-          </div>
-
-          <div class="about-card">
-            <div class="about-icon">🇮🇩</div>
-            <h3 class="about-title">Made in Indonesia</h3>
-            <p class="about-text">
-              Dibuat khusus untuk pasar Indonesia dengan pemahaman mendalam
-              tentang kebutuhan bisnis lokal dan kultur penggunaan teknologi di
-              Indonesia.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="kontak">
-      <div class="section-content">
-        <h2 class="section-title animate-on-scroll">Hubungi Kami</h2>
-
-        <div class="contact-content">
-          <div class="contact-info">
-            <div class="contact-item">
-              <div class="contact-label">WhatsApp</div>
-              <div class="contact-value">
-                <a href="https://wa.me/6285862016523" target="_blank"
-                  >+62 858-6201-6523</a
-                >
-              </div>
-            </div>
-
-            <div class="contact-item">
-              <div class="contact-label">Email</div>
-              <div class="contact-value">
-                <a href="mailto:pepetly@gmail.com">pepetly@gmail.com</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <p class="footer-text">
-        © 2026 Pepetly. All rights reserved. Made with ❤️ in Indonesia
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        SOLUSI <span class="pink">SaaS</span><br />
+        UNTUK UMKM<br />
+        INDONESIA
+      </h1>
+      <p class="hero-subtitle">
+        Kami membangun tools digital yang memberdayakan bisnis lokal untuk
+        tumbuh lebih cepat dengan teknologi yang terjangkau dan mudah
+        digunakan.
       </p>
-    </footer>
+      <a href="#produk" class="cta-button">Lihat Produk Kami</a>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
-  </body>
+  <!-- Stats Section -->
+  <section class="stats">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-number">28+</div>
+        <div class="stat-label">Bisnis Aktif</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Made in Indonesia</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">24/7</div>
+        <div class="stat-label">Automation</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products" id="produk">
+    <div class="section-content">
+      <h2 class="section-title animate-on-scroll">Produk Kami</h2>
+
+      <div class="product-card animate-on-scroll">
+        <div class="product-header">
+          <h3 class="product-name">Bookingku</h3>
+          <span class="product-status live">● LIVE</span>
+        </div>
+        <p class="product-description">
+          Sistem booking online terintegrasi WhatsApp untuk bisnis jasa.
+          Kelola jadwal, terima pembayaran DP, dan kirim reminder WhatsApp
+          otomatis dalam satu aplikasi. Sempurna untuk barbershop, salon, spa,
+          klinik, dan berbagai bisnis jasa lainnya.
+        </p>
+        <a href="https://bookingku.online" target="_blank" rel="noopener noreferrer" class="product-link">
+          Kunjungi Bookingku →
+        </a>
+      </div>
+
+      <div class="product-card animate-on-scroll" style="animation-delay: 0.2s">
+        <div class="product-header">
+          <h3 class="product-name">Coming Soon</h3>
+          <span class="product-status">● DEVELOPMENT</span>
+        </div>
+        <p class="product-description">
+          Kami sedang mengembangkan solusi SaaS baru yang akan segera hadir
+          untuk membantu UMKM Indonesia berkembang lebih pesat.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Pepetly Section -->
+  <section class="why" id="keunggulan">
+    <div class="section-content">
+      <h2 class="section-title animate-on-scroll">Kenapa Pilih Pepetly?</h2>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-number">01</div>
+          <h3 class="why-title">Automation-First</h3>
+          <p class="why-text">
+            Semua SaaS kami dibangun dengan n8n automation platform. Hemat
+            waktu hingga 80% dengan workflow otomatis yang powerful dan dapat
+            disesuaikan dengan kebutuhan bisnis Anda.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-number">02</div>
+          <h3 class="why-title">Open Source Tech</h3>
+          <p class="why-text">
+            Kami menggunakan teknologi open-source yang transparan dan aman.
+            Tidak ada vendor lock-in, full control atas data Anda, dan biaya
+            operasional lebih rendah dibanding solusi proprietary.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-number">03</div>
+          <h3 class="why-title">Designed for UMKM</h3>
+          <p class="why-text">
+            Dibuat khusus untuk kebutuhan bisnis Indonesia. Interface
+            sederhana, harga terjangkau, support dalam bahasa Indonesia, dan
+            fitur yang benar-benar dibutuhkan UMKM lokal.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-number">04</div>
+          <h3 class="why-title">Scalable & Flexible</h3>
+          <p class="why-text">
+            Platform kami tumbuh seiring bisnis Anda. Dari startup hingga
+            enterprise, dari 10 hingga 10,000 transaksi per hari. Integrasi
+            mudah dengan 400+ aplikasi populer.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-number">05</div>
+          <h3 class="why-title">No-Code Automation</h3>
+          <p class="why-text">
+            Tidak perlu coding untuk setup automation. Visual workflow builder
+            yang intuitif memungkinkan siapa saja bisa membuat automation
+            kompleks tanpa skill programming.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-number">06</div>
+          <h3 class="why-title">Cost Effective</h3>
+          <p class="why-text">
+            Harga yang fair dan transparan. Tidak ada biaya tersembunyi, tidak
+            ada vendor lock-in yang mahal. ROI cepat dengan penghematan waktu
+            dan biaya operasional signifikan.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How We Work Section -->
+  <section class="how-we-work">
+    <div class="section-content">
+      <h2 class="section-title animate-on-scroll" style="color: var(--white); text-shadow: 4px 4px 0 var(--black)">
+        Cara Kerja Kami
+      </h2>
+
+      <div class="how-steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Riset & Identifikasi Masalah</h3>
+            <p>
+              Kami mendengarkan pain points UMKM Indonesia, mengidentifikasi
+              masalah berulang yang memakan waktu dan menghambat pertumbuhan
+              bisnis.
+            </p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Design Solution</h3>
+            <p>
+              Merancang solusi SaaS yang sederhana, powerful, dan affordable.
+              Fokus pada user experience yang intuitif dan fitur yang
+              benar-benar dibutuhkan.
+            </p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Build with Automation</h3>
+            <p>
+              Membangun produk dengan n8n automation di core-nya. Setiap
+              proses dioptimalkan untuk efisiensi maksimal dan maintenance
+              minimal.
+            </p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h3>Launch & Iterate</h3>
+            <p>
+              Rilis produk ke market, kumpulkan feedback dari user, dan terus
+              improve. Kami percaya pada continuous improvement berdasarkan
+              kebutuhan nyata.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <div class="section-content">
+      <h2 class="section-title animate-on-scroll">Apa Kata Mereka</h2>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-quote">
+            Sejak pakai BookingKu, no-show berkurang drastis karena ada
+            reminder WhatsApp otomatis. Pelanggan juga senang bisa booking
+            sendiri.
+          </div>
+          <div class="testimonial-author">
+            <div class="testimonial-name">Budi Santoso</div>
+            <div class="testimonial-role">Owner, Cool Cuts Barber</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-quote">
+            Fitur-fitur yang ada sangat membantu saya. Sangat worth it untuk
+            harga segini.
+          </div>
+          <div class="testimonial-author">
+            <div class="testimonial-name">Siti Rahma</div>
+            <div class="testimonial-role">Manager, Glow Spa</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-quote">
+            Tampilan booking page-nya profesional banget. Client jadi lebih
+            percaya sama jasa saya.
+          </div>
+          <div class="testimonial-author">
+            <div class="testimonial-name">Andi Wijaya</div>
+            <div class="testimonial-role">Freelance Consultant</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="section-content">
+      <h2 class="section-title animate-on-scroll">
+        Siap Digitalisasi Bisnis Anda?
+      </h2>
+      <p class="cta-text animate-on-scroll">
+        Bergabunglah dengan puluhan UMKM Indonesia yang sudah merasakan
+        manfaat automation. Hemat waktu, tingkatkan efisiensi, dan fokus pada
+        pertumbuhan bisnis.
+      </p>
+      <div class="cta-buttons animate-on-scroll">
+        <a href="https://bookingku.online/register" target="_blank" rel="noopener noreferrer" class="cta-button">Coba
+          Bookingku Gratis</a>
+        <a href="#kontak" class="cta-button-secondary">Hubungi Kami</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq">
+    <div class="section-content">
+      <h2 class="section-title animate-on-scroll">
+        Pertanyaan yang Sering Diajukan
+      </h2>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <div class="faq-question">Apa itu Pepetly?</div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Pepetly adalah perusahaan perorangan yang fokus membangun SaaS
+              solutions untuk UMKM Indonesia. Kami menggunakan teknologi
+              automation untuk membuat tools yang powerful namun mudah
+              digunakan dan terjangkau.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            Apa keunggulan produk Pepetly dibanding kompetitor?
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Semua produk kami dibangun dengan n8n automation platform yang
+              memberikan fleksibilitas tinggi, cost-effective, dan tidak ada
+              vendor lock-in. Kami juga fokus pada kebutuhan spesifik UMKM
+              Indonesia dengan harga yang sangat terjangkau.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            Apakah saya perlu skill teknis untuk menggunakan produk Pepetly?
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Tidak sama sekali! Semua produk kami dirancang dengan interface
+              yang sangat user-friendly. Jika Anda bisa menggunakan WhatsApp
+              atau Instagram, Anda pasti bisa menggunakan produk kami.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Apakah data bisnis saya aman?</div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Sangat aman. Kami menggunakan enkripsi SSL, backup rutin, dan
+              mengikuti best practices dalam data security. Data Anda disimpan
+              di server yang reliable dan terlindungi.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            Apakah ada produk SaaS lain yang sedang dikembangkan?
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Ya! Saat ini kami sedang mengembangkan beberapa produk SaaS baru
+              yang akan membantu UMKM dalam berbagai aspek bisnis. Stay tuned
+              untuk update terbaru di website kami.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            Bagaimana cara mendapatkan support jika ada masalah?
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Anda bisa menghubungi kami melalui WhatsApp atau email. Tim
+              support kami siap membantu Anda dengan respon yang cepat dan
+              solusi yang jelas.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="tentang">
+    <div class="section-content">
+      <h2 class="section-title animate-on-scroll">Tentang Pepetly</h2>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">🎯</div>
+          <h3 class="about-title">Misi Kami</h3>
+          <p class="about-text">
+            Memberdayakan UMKM Indonesia dengan solusi digital yang
+            terjangkau, mudah digunakan, dan efektif untuk meningkatkan
+            produktivitas bisnis.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-icon">💡</div>
+          <h3 class="about-title">Inovasi</h3>
+          <p class="about-text">
+            Kami percaya teknologi harus accessible untuk semua. Itulah
+            mengapa kami fokus membangun tools yang powerful namun simple
+            untuk digunakan.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-icon">🇮🇩</div>
+          <h3 class="about-title">Made in Indonesia</h3>
+          <p class="about-text">
+            Dibuat khusus untuk pasar Indonesia dengan pemahaman mendalam
+            tentang kebutuhan bisnis lokal dan kultur penggunaan teknologi di
+            Indonesia.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="kontak">
+    <div class="section-content">
+      <h2 class="section-title animate-on-scroll">Hubungi Kami</h2>
+
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-label">WhatsApp</div>
+            <div class="contact-value">
+              <a href="https://wa.me/6285862016523" target="_blank" rel="noopener noreferrer">+62 858-6201-6523</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-label">Email</div>
+            <div class="contact-value">
+              <a href="mailto:pepetly@gmail.com">pepetly@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p class="footer-text">
+      © 2026 Pepetly. All rights reserved. Made with ❤️ in Indonesia
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
