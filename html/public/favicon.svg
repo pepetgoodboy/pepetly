@@ -1,0 +1,20 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#FAFAFA"/>
+  
+  <!-- Bold border -->
+  <rect x="0" y="0" width="512" height="512" fill="none" stroke="#0A0A0A" stroke-width="24"/>
+  
+  <!-- Inner decorative border -->
+  <rect x="40" y="40" width="432" height="432" fill="none" stroke="#FF006E" stroke-width="8"/>
+  
+  <!-- Letter P - main shape -->
+  <path d="M 140 160 L 140 440 L 200 440 L 200 320 L 300 320 C 360 320 380 300 380 240 C 380 180 360 160 300 160 Z M 200 220 L 280 220 C 300 220 310 230 310 250 C 310 270 300 280 280 280 L 200 280 Z" fill="#FF006E" stroke="#0A0A0A" stroke-width="8"/>
+  
+  <!-- Glitch effect boxes -->
+  <rect x="360" y="120" width="40" height="40" fill="#FF006E" stroke="#0A0A0A" stroke-width="4"/>
+  <rect x="100" y="360" width="30" height="30" fill="#0A0A0A"/>
+  
+  <!-- Small accent square -->
+  <rect x="380" y="380" width="50" height="50" fill="none" stroke="#FF006E" stroke-width="6"/>
+</svg>
