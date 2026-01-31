@@ -798,6 +798,9 @@ nav {
     font-family: 'Anybody', cursive;
     font-size: 24px;
     font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: var(--pink);
 }
 
 /* Error Page */
@@ -863,10 +866,6 @@ nav {
     font-size: 18px;
     margin-bottom: 50px;
     line-height: 1.6;
-}
-    text-transform: uppercase;
-    margin-bottom: 15px;
-    color: var(--pink);
 }
 
 .about-text {
